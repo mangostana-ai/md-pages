@@ -1,75 +1,13 @@
-# Nuxt Minimal Starter
+# 公众号Markdown编辑器插件
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+请访问主页[公众号Markdown编辑器插件](https://mpmd.pages.dev). 项目开源地址[honwhy/md](https://github.com/honwhy/md)
 
-## Setup
+## 骄傲地使用
 
-Make sure to install dependencies:
+- [Nuxt](https://nuxt.com/)
+- [NuxtUI](https://ui.nuxt.com/)
 
-```bash
-# npm
-npm install
+## 感谢
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- [doocs/md](https://github.com/doocs/md)
+- [wxt.dev](https://wxt.dev)

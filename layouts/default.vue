@@ -5,10 +5,7 @@
         <div class="flex justify-between h-16">
           <div class="flex items-center">
             <NuxtLink to="/" class="flex items-center">
-              <svg class="h-8 w-8 mr-2 text-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2L2 22H22L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M12 6L6 18H18L12 6Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+              <img src="/images/logo.svg" class="w-6 h-6"/>
               <span class="text-xl font-bold text-text dark:text-text-dark">
                 MPMD
               </span>

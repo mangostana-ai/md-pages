@@ -2,7 +2,6 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
   modules: ['@nuxt/ui'],
-
   colorMode: {
     classSuffix: '',
     preference: 'system',
@@ -15,7 +14,7 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       titleTemplate: '%s - MPMD',
       meta: [
-        { name: 'description', content: '一个简单易用的Markdown页面生成工具' }
+        { name: 'description', content: '一个简单易用的微信公众号Markdown浏览器插件' }
       ]
     }
   },
