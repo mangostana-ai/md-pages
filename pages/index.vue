@@ -121,8 +121,21 @@
     </div>
     <footer class="py-8 text-center text-sm text-text/60 dark:text-text-dark/60">
       <p>© {{ currentYear }} 微信公众号图文创作工具. All rights reserved.</p>
+      <p>骄傲地使用wxt/Nuxt框架
+        <a size="2xs" style="margin-left: 4px;" class="btn-primary btn-small" @click="isOpen = true">打赏作者</a>
+      </p>
     </footer>
   </div>
+  <UModal v-model="isOpen" class="fixed inset-0 flex items-center justify-center">
+  <div class="p-8 bg-white rounded-lg shadow-md max-w-screen-md h-96 flex items-center gap-2">
+    <div class="w-1/2 h-64 overflow-hidden">
+      <img class="w-full h-auto" src="~/assets/wechat-donate.webp" alt="微信捐赠">
+    </div>
+    <div class="w-1/2 h-64 overflow-hidden">
+      <img class="w-full h-auto" src="~/assets/alipay-donate.webp" alt="支付宝捐赠" style="margin-top: -66px;">
+    </div>
+  </div>
+</UModal>
 </template>
 
 <style scoped>
@@ -133,6 +146,7 @@
 .btn-small {
   padding: 2px 5px;
   font-size: 12px;
+  cursor: pointer;
 }
 </style>
 
@@ -142,4 +156,5 @@ useHead({
 })
 
 const currentYear = new Date().getFullYear()
+const isOpen = ref(false)
 </script>
