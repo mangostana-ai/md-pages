@@ -92,7 +92,7 @@
         <!-- 浏览器插件 -->
         <div class="flex flex-col md:flex-row-reverse items-center gap-8">
           <div class="w-full md:w-1/2">
-            <img src="~/assets/extension.jpg" alt="浏览器插件" class="rounded-lg shadow-lg">
+            <img src="~/assets/extension.png" alt="浏览器插件" class="rounded-lg shadow-lg">
           </div>
           <div class="w-full md:w-1/2">
             <h2 class="text-3xl font-bold text-text dark:text-text-dark">浏览器插件</h2>
