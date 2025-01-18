@@ -19,7 +19,12 @@ export default defineNuxtConfig({
       ]
     }
   },
-
+  nitro: {
+    compressPublicAssets: true,
+    prerender: {
+      crawlLinks: true,
+    },
+  },
   tailwindcss: {
     config: {
       darkMode: 'class',
