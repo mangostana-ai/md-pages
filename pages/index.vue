@@ -70,7 +70,9 @@
         <!-- Markdown支持 -->
         <div class="flex flex-col md:flex-row items-center gap-8">
           <div class="w-full md:w-1/2">
-            <img src="~/assets/markdown.png" alt="Markdown支持" class="rounded-lg shadow-lg">
+            <a href="https://doocs-md.pages.dev/" target="_blank" rel="noopener noreferrer">
+              <img src="~/assets/markdown.png" alt="Markdown支持" class="rounded-lg shadow-lg">
+            </a>
           </div>
           <div class="w-full md:w-1/2">
             <h2 class="text-3xl font-bold text-text dark:text-text-dark">Markdown支持</h2>
@@ -99,7 +101,9 @@
         <!-- 微信公众号图床 -->
         <div class="flex flex-col md:flex-row items-center gap-8">
           <div class="w-full md:w-1/2">
-            <img src="~/assets/image-host.png" alt="微信公众号图床" class="rounded-lg shadow-lg">
+            <a href="/tutorial" rel="noopener noreferrer">
+              <img src="~/assets/image-host.png" alt="微信公众号图床" class="rounded-lg shadow-lg">
+            </a>
           </div>
           <div class="w-full md:w-1/2">
             <h2 class="text-3xl font-bold text-text dark:text-text-dark">微信公众号图床</h2>
