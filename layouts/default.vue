@@ -5,7 +5,7 @@
         <div class="flex justify-between h-16">
           <div class="flex items-center">
             <NuxtLink to="/" class="flex items-center">
-              <img src="/images/logo.svg" class="w-6 h-6"/>
+              <img src="/images/logo.svg" class="w-6 h-6 mr-2"/>
               <span class="text-xl font-bold text-text dark:text-text-dark">
                 MPMD
               </span>
