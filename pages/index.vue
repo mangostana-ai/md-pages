@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-background dark:bg-background-dark">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <div class="text-center">
-        <h1 class="text-4xl font-bold text-text dark:text-text-dark">
+        <h1 class="text-4xl font-bold bg-gradient-to-r from-[#4ade80] via-[#07c160] to-[#4ade80] bg-clip-text text-transparent">
           微信公众号图文创作利器
         </h1>
         <p class="mt-4 text-lg text-text/80 dark:text-text-dark/80">
