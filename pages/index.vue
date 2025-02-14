@@ -70,10 +70,10 @@
         <!-- Markdown支持 -->
         <div class="flex flex-col md:flex-row items-center gap-8">
           <div class="w-full md:w-1/2">
-            <a href="https://doocs-md.pages.dev/" target="_blank" rel="noopener noreferrer">
+              <a href="https://doocs-md.pages.dev/" target="_blank" rel="noopener noreferrer">
               <img src="~/assets/markdown.png" alt="Markdown支持" class="rounded-lg shadow-lg">
             </a>
-          </div>
+            </div>
           <div class="w-full md:w-1/2">
             <h2 class="text-3xl font-bold text-text dark:text-text-dark">Markdown支持</h2>
             <p class="mt-4 text-lg text-text/80 dark:text-text-dark/80">
@@ -126,13 +126,16 @@
     </footer>
   </div>
   <UModal v-model="isOpen" class="fixed inset-0 flex items-center justify-center">
-    <div class="p-8 bg-white rounded-lg shadow-md max-w-screen-md h-96 flex items-center gap-2">
-      <div class="w-1/2 h-64 overflow-hidden">
-        <img class="w-full h-auto" src="~/assets/wechat-donate.webp" alt="微信捐赠">
+    <div class="p-8 bg-white rounded-lg shadow-md max-w-screen-md h-96 ">
+      <div class="flex items-center gap-2">
+      <div class="w-1/2 h-64 overflow-hidden flex items-center">
+        <img class="w-full h-auto" src="~/assets/wechat-code.jpg" alt="微信捐赠">
       </div>
-      <div class="w-1/2 h-64 overflow-hidden">
-        <img class="w-full h-auto" src="~/assets/alipay-donate.webp" alt="支付宝捐赠" style="margin-top: -66px;">
+      <div class="w-1/2 h-64 overflow-hidden flex items-center">
+        <img class="w-full h-auto" src="~/assets/alipay-code.jpg" alt="支付宝捐赠">
       </div>
+    </div>
+    <div class="text-center text-sm text-text dark:text-text-dark">感谢您的支持！</div>
     </div>
   </UModal>
   <UModal v-model="isOpen2" class="fixed inset-0 flex items-center justify-center">
