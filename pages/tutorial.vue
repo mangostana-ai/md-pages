@@ -18,6 +18,13 @@
         <h2 class="text-text dark:text-text-dark">素材保存情况</h2>
         <p class="text-text/80 dark:text-text-dark/80">图片内容是保存到微信公众号后台的素材库默认分组的</p>
         <img src="~/assets/04-640.webp" />
+        <h2 class="text-text dark:text-text-dark">web版如何接入公众号素材库</h2>
+        <p class="text-text/80 dark:text-text-dark/80">虽然这个教程主要目的是介绍浏览器插件对接方式的，但是由于很多用户在使用web版时对于如何配置代理域名疑问较多。</p>
+        <p class="text-text/80 dark:text-text-dark/80">简洁明了的答案是，将项目中的`doocs/md/example`的worker.js
+          文件部署到cloudflare的workers服务，参考相关官方文档部署完后可以获得一个调用域名，就是我们想要的代理域名了，比如：https://xxx.xxx.workers.dev</p>
+        <p class="text-text/80 dark:text-text-dark/80">还有一个偷懒的做法，在本地启动这个代理服务，`npx wrangler dev worker.js`，然后配置代理域名：`http://localhost:8787`</p>
+        <h2 class="text-text dark:text-text-dark">web及浏览器插件图片上传流程图</h2>
+        <img src="~/assets/upload_process.png" class="w-96 h-full"/>
         <h2 class="text-text dark:text-text-dark">联系作者</h2>
         <p class="text-text/80 dark:text-text-dark/80">插件作者公众号：哪里不会点哪里</p>
         <img src="~/assets/05-640.png" class="w-48 h-48"/>
