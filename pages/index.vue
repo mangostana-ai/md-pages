@@ -80,7 +80,7 @@
               使用知名项目<a class="btn-primary inline-block px-4 py-2 text-sm btn-small" href="https://github.com/doocs/md">doocs/md</a>精心打造的Markdown编辑器
             </p>
             <p class="mt-4 text-lg text-text/80 dark:text-text-dark/80">
-              原生支持Markdown语法，让写作更高效。支持代码高亮、表格、数学公式等丰富格式
+              原生支持Markdown语法，让写作更高效。支持代码高亮、表格、数学公式、流程图等丰富格式
             </p>
           </div>
         </div>
