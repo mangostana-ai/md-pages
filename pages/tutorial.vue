@@ -12,6 +12,7 @@
         <p class="text-text/80 dark:text-text-dark/80">这一步配置IP白名单，是为了插件访问公众号openapi接口能够正常访问设置的。通过访问 <a href="https://www.whatismyip.com/" class="text-primary dark:text-primary-dark">https://www.whatismyip.com/</a> 获取本机的公网IP，或者在插件中配置好appID和appSecret后尝试上传图片，并观察网络请求的报错，从报错中就可以得知被拒绝访问的IP地址，即是我们的公网IP地址。</p>
         <p class="text-text/80 dark:text-text-dark/80">通过 设置与开发>基本配置的IP白名单， 或者 设置与开发 > 安全中心 进行配置</p>
         <img src="~/assets/02-640.webp" />
+        <p class="text-text/80 dark:text-text-dark/80">配置完IP白名单稍微耐心等待下，可能要等10分钟才能生效</p>
         <h2 class="text-text dark:text-text-dark">插件中配置账号密钥</h2>
         <p class="text-text/80 dark:text-text-dark/80">右键弹出菜单，选择上传图片，然后选择公众号图床tab，填入账号密钥（只有web版本才需要代理域名）</p>
         <img src="~/assets/03-640.png" />
