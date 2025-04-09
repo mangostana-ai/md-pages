@@ -13,8 +13,8 @@ export const useBrowserExtensions = () => {
   const fetchInstallCounts = async () => {
     try {
       // 这里使用模拟数据，实际项目中应该从后端API获取
-      chromeInstalls.value = 590
-      edgeInstalls.value = 880
+      chromeInstalls.value = 620
+      edgeInstalls.value = 940
       firefoxInstalls.value = 60
     } catch (error) {
       console.error('获取插件安装数据失败:', error)
