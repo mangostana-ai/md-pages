@@ -30,11 +30,6 @@ jobs:
       - name: Build project
         run: pnpm run build
 
-      - name: Upload build output
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: dist
-          
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
